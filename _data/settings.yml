@@ -1,0 +1,14 @@
+#------------------------
+#work section
+
+projects:
+    - {name: Test, folder: proj-1}
+    - {name: Test, folder: proj-2}
+    - {name: Test, folder: proj-3}
+    - {name: Test, folder: proj-4}
+    - {name: Test, folder: proj-5}
+    - {name: Test, folder: proj-6}
+    - {name: Test, folder: proj-7}
+    - {name: Test, folder: proj-8}
+
+email: haydentnix@gmail.com
