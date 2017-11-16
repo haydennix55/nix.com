@@ -56,3 +56,19 @@ $('min-link').hide();
 $('userex-link').hide();
 $('fashion-link').hide();
 $('sneaker-link').hide();
+
+
+function openNav(x) {
+
+    x.classList.toggle("change")
+
+    if (document.getElementById("sidenav").style.width != "0px" && document.getElementById("sidenav").style.width != "") {
+        document.getElementById("sidenav").style.width = "0px";
+        document.getElementById("main").style.marginLeft = "0px";
+    } else {
+        document.getElementById("sidenav").style.width = "200px";
+        document.getElementById("main").style.marginLeft = "200px";
+
+    }
+
+}
