@@ -1,3 +1,8 @@
+function preload() {
+    var img = loadImage('../img/sneaker4.gif');
+}
+
+
 $('a').hover(
        function(){ $(this).removeClass('hide') },
        function(){ $(this).addClass('hide') }
@@ -58,6 +63,8 @@ $(".design-link").hover(
                     $( ".wrapper" ).removeClass( "design" );
                 }
             );
+
+
 $('design-link').hide();
 $('write-link').hide();
 $('min-link').hide();
